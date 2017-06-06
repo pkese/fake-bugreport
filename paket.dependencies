@@ -1,0 +1,11 @@
+source https://www.nuget.org/api/v2
+
+#nuget NUnit.ConsoleRunner
+
+nuget FAKE prerelease
+nuget Fake.Core.Tracing prerelease
+nuget Fake.Core.ReleaseNotes prerelease
+
+#nuget SharpYaml
+
+#nuget Microsoft.Build
